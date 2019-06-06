@@ -1,17 +1,16 @@
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
+using namespace std;
 int main()
 {
 char a;
-cout<<"enter the char";
 cin>>a;
 if((a>='a'&&a<='z')||(a>='A'&&a<='Z'))
 {
-cout<<"alphabet";
+cout<<"Alphabet";
 }
 else
 {
-cout>>"no";
+cout<<"no";
 }
 return 0;
 }
